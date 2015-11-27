@@ -62,6 +62,16 @@
 		7EDCF3001B17D9DF00F7019F /* CDVURLRequestFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDCF2FF1B17D9DF00F7019F /* CDVURLRequestFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3B082D41BB15CEA00D8DC35 /* CDVGestureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B082D21BB15CEA00D8DC35 /* CDVGestureHandler.h */; settings = {ASSET_TAGS = (); }; };
 		A3B082D51BB15CEA00D8DC35 /* CDVGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B082D31BB15CEA00D8DC35 /* CDVGestureHandler.m */; settings = {ASSET_TAGS = (); }; };
+		CC6A00933C6D8B696716D707 /* CDVURLProtocolHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6A0B281FED70F30F69C054 /* CDVURLProtocolHttp.h */; };
+		CC6A00FF91BA47BF1DDAFAF2 /* CDVURLProtocolHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A02F5F6938DB83F9294F2 /* CDVURLProtocolHttp.m */; };
+		CC6A03640D81E69351F86EEC /* QNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A0CE177A98C93C09C055D /* QNSURLSessionDemux.m */; };
+		CC6A07CCC9FDE1611BA4C273 /* QNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6A0F254F5E55716EB374C0 /* QNSURLSessionDemux.h */; };
+		CC6A07D5A6E1A8BFF940EAB4 /* CacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A05B402E3325BEE1737F7 /* CacheStoragePolicy.m */; };
+		CC6A09885549A3FB00304BD7 /* CanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6A066FB8399E02C7ECEA17 /* CanonicalRequest.h */; };
+		CC6A0A1A3CDCF55357DCF9DA /* CustomHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A026E14976CB2A985F196 /* CustomHTTPProtocol.m */; };
+		CC6A0C5C2034AEE7D251E67D /* CacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6A0EFB5438A6BAC52EBE76 /* CacheStoragePolicy.h */; };
+		CC6A0C7D2EEA183C2438F82E /* CustomHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6A0BD40A676D21BCD94B62 /* CustomHTTPProtocol.h */; };
+		CC6A0FE73532331A0E2136C5 /* CanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6A012E6B6B1FBA2581CF6E /* CanonicalRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +133,16 @@
 		A3B082D21BB15CEA00D8DC35 /* CDVGestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVGestureHandler.h; sourceTree = "<group>"; };
 		A3B082D31BB15CEA00D8DC35 /* CDVGestureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVGestureHandler.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* CordovaLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		CC6A012E6B6B1FBA2581CF6E /* CanonicalRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanonicalRequest.m; sourceTree = "<group>"; };
+		CC6A026E14976CB2A985F196 /* CustomHTTPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHTTPProtocol.m; sourceTree = "<group>"; };
+		CC6A02F5F6938DB83F9294F2 /* CDVURLProtocolHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVURLProtocolHttp.m; sourceTree = "<group>"; };
+		CC6A05B402E3325BEE1737F7 /* CacheStoragePolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheStoragePolicy.m; sourceTree = "<group>"; };
+		CC6A066FB8399E02C7ECEA17 /* CanonicalRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanonicalRequest.h; sourceTree = "<group>"; };
+		CC6A0B281FED70F30F69C054 /* CDVURLProtocolHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVURLProtocolHttp.h; sourceTree = "<group>"; };
+		CC6A0BD40A676D21BCD94B62 /* CustomHTTPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHTTPProtocol.h; sourceTree = "<group>"; };
+		CC6A0CE177A98C93C09C055D /* QNSURLSessionDemux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNSURLSessionDemux.m; sourceTree = "<group>"; };
+		CC6A0EFB5438A6BAC52EBE76 /* CacheStoragePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheStoragePolicy.h; sourceTree = "<group>"; };
+		CC6A0F254F5E55716EB374C0 /* QNSURLSessionDemux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNSURLSessionDemux.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +281,9 @@
 				7ED95D331AB9029B008C4574 /* NSMutableArray+QueueAdditions.h */,
 				7ED95D341AB9029B008C4574 /* NSMutableArray+QueueAdditions.m */,
 				7EDCF2FF1B17D9DF00F7019F /* CDVURLRequestFilter.h */,
+				CC6A02F5F6938DB83F9294F2 /* CDVURLProtocolHttp.m */,
+				CC6A0B281FED70F30F69C054 /* CDVURLProtocolHttp.h */,
+				CC6A0382F004931C3998509D /* Core Code */,
 			);
 			name = Public;
 			path = Classes/Public;
@@ -273,6 +296,21 @@
 				A3B082D31BB15CEA00D8DC35 /* CDVGestureHandler.m */,
 			);
 			path = CDVGestureHandler;
+			sourceTree = "<group>";
+		};
+		CC6A0382F004931C3998509D /* Core Code */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A066FB8399E02C7ECEA17 /* CanonicalRequest.h */,
+				CC6A012E6B6B1FBA2581CF6E /* CanonicalRequest.m */,
+				CC6A0EFB5438A6BAC52EBE76 /* CacheStoragePolicy.h */,
+				CC6A05B402E3325BEE1737F7 /* CacheStoragePolicy.m */,
+				CC6A0BD40A676D21BCD94B62 /* CustomHTTPProtocol.h */,
+				CC6A026E14976CB2A985F196 /* CustomHTTPProtocol.m */,
+				CC6A0F254F5E55716EB374C0 /* QNSURLSessionDemux.h */,
+				CC6A0CE177A98C93C09C055D /* QNSURLSessionDemux.m */,
+			);
+			path = "Core Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +352,11 @@
 				7E7F69B81ABA368F007546F4 /* CDVUIWebViewEngine.h in Headers */,
 				7E7F69B91ABA3692007546F4 /* CDVHandleOpenURL.h in Headers */,
 				30193A511AE6350A0069A75F /* CDVUIWebViewNavigationDelegate.h in Headers */,
+				CC6A00933C6D8B696716D707 /* CDVURLProtocolHttp.h in Headers */,
+				CC6A09885549A3FB00304BD7 /* CanonicalRequest.h in Headers */,
+				CC6A0C5C2034AEE7D251E67D /* CacheStoragePolicy.h in Headers */,
+				CC6A0C7D2EEA183C2438F82E /* CustomHTTPProtocol.h in Headers */,
+				CC6A07CCC9FDE1611BA4C273 /* QNSURLSessionDemux.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +437,11 @@
 				7ED95D461AB9029B008C4574 /* CDVPlugin.m in Sources */,
 				7ED95D091AB9028C008C4574 /* CDVLocalStorage.m in Sources */,
 				3093E2241B16D6A3003F381A /* CDVSystemSchemes.m in Sources */,
+				CC6A00FF91BA47BF1DDAFAF2 /* CDVURLProtocolHttp.m in Sources */,
+				CC6A0FE73532331A0E2136C5 /* CanonicalRequest.m in Sources */,
+				CC6A07D5A6E1A8BFF940EAB4 /* CacheStoragePolicy.m in Sources */,
+				CC6A0A1A3CDCF55357DCF9DA /* CustomHTTPProtocol.m in Sources */,
+				CC6A03640D81E69351F86EEC /* QNSURLSessionDemux.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

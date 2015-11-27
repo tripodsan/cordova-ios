@@ -27,6 +27,8 @@
 #import "NSDictionary+CordovaPreferences.h"
 #import "CDVLocalStorage.h"
 #import "CDVCommandDelegateImpl.h"
+#import "CDVURLProtocolHttp.h"
+#import "CustomHTTPProtocol.h"
 
 @interface CDVViewController () {
     NSInteger _userAgentLockToken;
@@ -261,7 +263,7 @@
         backupWebStorageType = backupWebStorage;
     }
     [self.settings setCordovaSetting:backupWebStorageType forKey:@"BackupWebStorage"];
-    
+
     [CDVLocalStorage __fixupDatabaseLocationsWithBackupType:backupWebStorageType];
 
     // // Instantiate the WebView ///////////////
@@ -272,6 +274,10 @@
 
     // register this viewcontroller with the NSURLProtocol, only after the User-Agent is set
     [CDVURLProtocol registerViewController:self];
+
+    // register our http protocol
+//    [NSURLProtocol registerClass:[CDVURLProtocolHttp class]];
+    [CustomHTTPProtocol start];
 
     // /////////////////
 
@@ -502,7 +508,7 @@
     else if ([[url scheme] isEqualToString:@"about"]) {
         return NO;
     }
- 
+
     /*
      * all data: scheme urls are handled
      */
